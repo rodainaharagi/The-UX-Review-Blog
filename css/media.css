@@ -1,0 +1,662 @@
+@media screen and (max-width: 768px) {
+
+    .contanier {
+        width: 95%;
+    }
+
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        white-space: normal;
+
+    }
+
+    .navlinks {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .navlinks li a {
+        font-size: 12px;
+    }
+
+    .staricon {
+        width: 3%;
+    }
+
+    .navbtn a {
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+
+    /* header */
+
+    .header {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .headercontent {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 180px;
+    }
+
+    .headerleft span {
+        font-size: 45px;
+    }
+
+    .headertext {
+        width: 100%;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .headerbtn {
+        gap: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .readbtn,
+    .watchbtn {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .headerright {
+        width: 85%;
+        margin: auto;
+    }
+
+    .headerright img {
+        width: 90%;
+    }
+
+    .headerright h3 {
+        top: 3%;
+        left: 80%;
+        font-size: 13px;
+    }
+
+    .sequare1,
+    .sequare2 {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* articles */
+
+    .articlescontent {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .articleheading {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .articleheading h2 {
+        font-size: 30px;
+    }
+
+    .articlesright {
+        width: 100%;
+    }
+
+    .article {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .artimg {
+        width: 30%;
+    }
+
+    .firstarticle .artimg h4,
+    .secarticle .artimg h4 {
+        left: 25%;
+        top: 3%;
+    }
+
+    .thirdarticle .artimg h4 {
+        left: 24%;
+        top: 3%;
+    }
+
+    .arttext {
+        width: 100%;
+    }
+
+    .arttext h3 {
+        font-size: 21px;
+    }
+
+    .arttext p {
+        font-size: 15px;
+    }
+
+    .artinfo span {
+        font-size: 12px;
+    }
+
+    .artinfo img {
+        width: 20px;
+    }
+
+    .articlebtn {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .articlesnews {
+        position: static;
+        width: 100%;
+    }
+
+    .trending,
+    .categories {
+        padding: 20px;
+    }
+
+    .trend {
+        white-space: normal;
+        gap: 10px;
+    }
+
+    .trend h2,
+    .categories h2 {
+        font-size: 25px;
+    }
+
+    .trendtext h4 {
+        font-size: 15px;
+    }
+
+    /* authors */
+    .authorscontent,
+    .communitycontent {
+        margin-top: 30px;
+    }
+
+    .authorsheading h2,
+    .communityheading h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .authorsheading p,
+    .communityheading p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mainauthors {
+        flex-direction: column;
+        gap: 30px;
+        margin: 50px 0;
+    }
+
+    .authorscard {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .authorscard h2 {
+        font-size: 25px;
+    }
+
+    .authorsimg img {
+        width: 25%;
+    }
+
+    .socialicons {
+        width: 60%;
+    }
+
+    .socialicons a {
+        width: 20%;
+    }
+
+    .sequare3,
+    .sequare4 {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* community */
+
+    .maincommunity {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .communityleft {
+        width: 100%;
+    }
+
+    .communityleft h2 {
+        font-size: 28px;
+    }
+
+    .communitytext {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .feature {
+        gap: 12px;
+        margin: 25px 0;
+    }
+
+    .feature img {
+        width: 10%;
+    }
+
+    .feature h3 {
+        font-size: 15px;
+    }
+
+    .joinbtn {
+        width: 50%;
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .customersreviews {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .customersreviews h2 {
+        font-size: 23px;
+        white-space: normal;
+    }
+
+    .review {
+        padding: 10px;
+    }
+
+    .review h4 {
+        font-size: 15px;
+    }
+
+    .customer img {
+        width: 10%;
+    }
+
+    /* footer */
+
+    .footertop {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .brandlogo h2 {
+        font-size: 25px;
+    }
+
+    .brandlogo img {
+        width: 50px;
+    }
+
+    .brand p {
+        font-size: 15px;
+    }
+
+    .footercategories h3,
+    .newsletter h3 {
+        font-size: 20px;
+    }
+
+    .footercategories a,
+    .newsletter p {
+        font-size: 15px;
+    }
+
+    .newsletter {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footerbottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .copyrights {
+        font-size: 13px;
+    }
+
+    .footerlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footerlinks a {
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+
+    .contanier {
+        width: 90%;
+    }
+
+    /* navbar */
+
+    .navbar {
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .navlinks {
+        gap: 8px;
+    }
+
+    .navlinks li a {
+        font-size: 11px;
+    }
+
+    .navbtn a {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .staricon {
+        width: 2%;
+    }
+
+    /* header */
+
+    .header {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .headercontent {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .headerleft {
+        width: 55%;
+    }
+
+    .headerleft span {
+        font-size: 52px;
+    }
+
+    .headertext {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .readbtn,
+    .watchbtn {
+        width: 50%;
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    .headerbtn {
+        gap: 12px;
+    }
+
+    .headerright {
+        width: 45%;
+    }
+
+    .headerright img {
+        width: 100%;
+    }
+
+    .headerright h3 {
+        left: 80%;
+        top: 2%;
+        font-size: 13px;
+    }
+
+    /* articles */
+
+    .articlescontent {
+        gap: 20px;
+    }
+
+    .articlesright {
+        width: 65%;
+    }
+
+    .article {
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .artimg {
+        width: 40%;
+    }
+
+    .arttext {
+        width: 60%;
+    }
+
+    .arttext h3 {
+        font-size: 20px;
+    }
+
+    .arttext p {
+        font-size: 14px;
+    }
+
+    .artinfo span {
+        font-size: 11px;
+        white-space: nowrap;
+        padding: 0 7px;
+
+    }
+
+    .artinfo img {
+        width: 20%;
+    }
+
+     .firstarticle .artimg h4,
+    .secarticle .artimg h4 {
+        left: 33%;
+        top: 3%;
+    }
+
+    .thirdarticle .artimg h4 {
+        left:30%;
+        top: 4%;
+    }
+
+    .articlebtn {
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .articlesnews {
+        width: 35%;
+        gap: 20px;
+    }
+
+    .trending,
+    .categories {
+        width: 250%;
+        padding: 15px;
+    }
+
+    .trend {
+        gap: 10px;
+        white-space: normal;
+    }
+
+    .trend h2,
+    .categories h2 {
+        font-size: 27px;
+    }
+
+    .trendtext h4 {
+        font-size: 15px;
+    }
+
+    /* authors */
+
+    .mainauthors {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .authorscard {
+        width: 45%;
+        padding: 20px;
+    }
+
+    .authorscard h2 {
+        font-size: 25px;
+    }
+
+    .authorsimg img {
+        width: 45%;
+    }
+
+    .authorsheading h2,
+    .communityheading h2 {
+        font-size: 40px;
+    }
+
+    .authorsheading p,
+    .communityheading p {
+        font-size: 17px;
+    }
+
+    /* community */
+
+    .maincommunity {
+        gap: 20px;
+    }
+
+    .communityleft {
+        width: 110%;
+    }
+
+    .communityleft h2 {
+        font-size: 29px;
+    }
+
+    .communitytext {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .feature {
+        gap: 12px;
+    }
+
+    .feature img {
+        width: 40px;
+    }
+
+    .feature h3 {
+        font-size: 15px;
+    }
+
+    .joinbtn {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .customersreviews {
+        padding: 15px;
+    }
+
+    .customersreviews h2 {
+        font-size: 23px;
+        white-space: normal;
+    }
+
+    .review {
+        padding: 10px;
+    }
+
+    .customer img {
+        width: 15%;
+    }
+
+    /* footer */
+
+    .footertop {
+        gap: 20px;
+    }
+
+    .brandlogo h2 {
+        font-size: 24px;
+    }
+
+    .brandlogo img {
+        width: 20%;
+    }
+
+    .brand p {
+        font-size: 15px;
+    }
+
+    .footercategories h3,
+    .newsletter h3 {
+        font-size: 20px;
+    }
+
+    .footercategories a,
+    .newsletter p {
+        font-size: 15px;
+    }
+
+    .newsletter {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .newsletter input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footerbottom {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .copyrights,
+    .footerlinks a {
+        font-size: 13px;
+    }
+
+    .footerlinks {
+        gap: 12px;
+    }
+
+}
+
